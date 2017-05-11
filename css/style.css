@@ -1,0 +1,29 @@
+.history{
+    padding:10px;
+}
+
+img {
+    width: 100% !important;
+}
+
+.carousel-item{
+    height: 100%;
+}
+
+.slider-img{
+    width: 100%;
+    min-height: 600px;
+    max-height: 600px;
+}
+
+nav{
+    background-color: transparent;
+}
+
+nav ul li a{
+    color: black;
+}  
+
+.brand-logo{
+    color: black !important;
+}
