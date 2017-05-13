@@ -10,9 +10,11 @@
         <!--Import Google Icon Font-->
         <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!--Import materialize.css-->
-        <link type="text/css" rel="stylesheet" href="lib/materialize/css/materialize.css"  media="screen,projection"/>
+<!--        <link type="text/css" rel="stylesheet" href="lib/materialize/css/materialize.css"  media="screen,projection"/>-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
         <link rel="stylesheet" href="./css/style.css"/>
         <link rel="stylesheet" href="./css/animate.css"/>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -28,17 +30,17 @@
                     <ul class="right hide-on-med-and-down">
                         <li><a href="#home">Home</a></li>
                         <li><a href="#history">History</a></li>
-                        <li><a href="#feature-work">Daivasthana</a></li>
-                        <li><a href="#testimonials">People</a></li>
-                        <li><a href="#blog">Gallery</a></li>
+                        <li><a href="#daivastana">Daivasthana</a></li>
+                        <li><a href="#people">People</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
                         <li><a href="#contact-us">Contact</a></li>
                     </ul>
                     <ul class="side-nav" id="mobile-demo">
                         <li><a href="#home">Home</a></li>
                         <li><a href="#history">History</a></li>
-                        <li><a href="#feature-work">Daivasthana</a></li>
-                        <li><a href="#testimonials">People</a></li>
-                        <li><a href="#blog">Gallery</a></li>
+                        <li><a href="#daivastana">Daivasthana</a></li>
+                        <li><a href="#people">People</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
                         <li><a href="#contact-us">Contact</a></li>
                     </ul>
                 </div>
@@ -47,7 +49,7 @@
         
         
         <!-- Slider -->
-        <div class="carousel carousel-slider" data-indicators="true">
+        <div id="slider" class="carousel carousel-slider" data-indicators="true">
             <a class="carousel-item" href="#one!"><img class="slider-img" src="http://lorempixel.com/800/400/food/1"></a>
             <a class="carousel-item" href="#two!"><img class="slider-img" src="http://lorempixel.com/800/400/food/2"></a>
             <a class="carousel-item" href="#three!"><img class="slider-img" src="http://lorempixel.com/800/400/food/3"></a>
@@ -74,12 +76,182 @@
             </div>
         </div>
         
+        <!-- Diavastana-->
+        <div id="daivastana">
+            <h3 class="title">Daivastana</h3>
+            <div class="row daivastana-row">
+                <div class="card col l3 m6 s12">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/protfolio1.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                        <p><a href="#">This is a link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+
+                <div class="card col l3 m6 s12">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/protfolio2.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                        <p><a href="#">This is a link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+
+                <div class="card col l3 m6 s12">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/protfolio3.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                        <p><a href="#">This is a link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+
+                <div class="card col l3 m6 s12">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/protfolio5.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                        <p><a href="#">This is a link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!--imp people-->
+        <div class="parallax-container">
+            <div class="parallax"><img src="img/testimonials-bg.jpg"></div>
+        </div>
+        
+        
+        <!--Latest Pictures-->
+        <div class="container pictures-container">
+            <div class="row">
+                <h3 class="title">Latest Pictures</h3>
+                <div class="right">
+                    <a class="btn" href="#">VIEW ALL</a>
+                </div>
+                
+            </div>
+            
+            <div class="row">
+                <div class="col s12 m4">
+                    <img class="materialboxed responsive-img z-depth-1" data-caption="The 100" src="img/blog.jpg" style="">
+<!--                    <h5 class="center"><a href="https://www.100xp.io/" target="_blank">The 100</a></h5>-->
+                </div>
+                <div class="col s12 m4">
+                    <img class="materialboxed responsive-img z-depth-1" data-caption="The 100" src="img/blog.jpg" style="">
+<!--                    <h5 class="center"><a href="https://www.100xp.io/" target="_blank">The 100</a></h5>-->
+                </div>
+                <div class="col s12 m4">
+                    <img class="materialboxed responsive-img z-depth-1" data-caption="The 100" src="img/blog.jpg" style="">
+<!--                    <h5 class="center"><a href="https://www.100xp.io/" target="_blank">The 100</a></h5>-->
+                </div>
+            </div>
+        </div>
+        
+        
+        <!--Contact-->
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <div class="title">
+                        <h3>Contact <span>Us</span></h3>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="map" style="width:100%;height:500px" id="map">
+        </div>
+        
+        
+        <footer class="page-footer grey darken-4">
+            <div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col l6 s12">
+                            <h5 class="white-text">Footer Content</h5>
+                            <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                        </div>
+                        <div class="col l3 offset-l3 s12">
+                            <h5 class="white-text">Links</h5>
+                            <ul>
+                                <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                                <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                                <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                                <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright black">
+                <div class="container">
+                    <div class="copy-right left">
+                        © 2017 BelliBettuGuttu
+                    </div>
+                    
+                    <div class="social right">
+                        <ul>
+                            <li><a href="http://facebook.com/"><i class="fa fa-facebook fa-2x"></i></a></li>
+                            <li><a href="http://twitter.com/"><i class="fa fa-twitter fa-2x"></i></a></li>
+                            <li><a href="http://plus.google.com/"><i class="fa fa-google-plus fa-2x"></i> </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
         
         
         
         <!--Import jQuery before materialize.js-->
-        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script type="text/javascript" src="lib/materialize/js/materialize.js"></script>
+<!--        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>-->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!--        <script type="text/javascript" src="lib/materialize/js/materialize.js"></script>-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
         <script type="text/javascript" src="js/app.js"></script>
+        <script type="text/javascript">
+            function initMap() {
+                var myLatLng = {lat: 12.938050, lng: 74.933071};
+
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 5,
+                    scrollwheel: false,
+                    center: myLatLng
+                });
+
+                var marker = new google.maps.Marker({
+                    position: myLatLng,
+                    map: map,
+                    title: 'Hello World!'
+                });
+            }
+        </script>
+        <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAU_3rZyQW9uxEcR-HuVwCuPZQisaz5md8&callback=initMap">
+            initMap;
+        </script>
     </body>
 </html>

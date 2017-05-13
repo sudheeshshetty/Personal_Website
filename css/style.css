@@ -1,5 +1,5 @@
 .history{
-    padding:10px;
+    padding:20px;
 }
 
 img {
@@ -27,3 +27,75 @@ nav ul li a{
 .brand-logo{
     color: black !important;
 }
+
+.daivastana-row{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.card{
+    padding:0px !important;
+    margin:0px;
+}
+
+.card:hover{
+    opacity:0.8;
+    
+}
+
+.parallax-container{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.title{
+    align-content: center;
+    text-align: center;
+}
+
+.pictures-container{
+    padding: 10px;
+}
+
+.right{
+    margin-right: 10px;
+}
+
+.copy-right{
+    height:50px;
+    margin-top: 30px;
+}
+
+.social ul {
+    overflow: auto;
+}
+
+.social ul li {
+    list-style-type: none;
+    float: left;
+}
+
+.social ul li a i {
+    background: #205D7A;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 15%;
+    transition: all 0.2s ease-in-out;
+}
+.fa-facebook {
+    background:#3b5998 !important;
+}
+.fa-twitter {
+    background:#00aced !important;
+}
+.fa-google-plus {
+    background:#dd4b39 !important;
+}
+ul li a i:hover {
+    opacity: .7;
+}
+
