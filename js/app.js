@@ -2,6 +2,7 @@ $(document).ready(function(){
     $('.carousel.carousel-slider').carousel({fullWidth: true,duration:2000});
     $('.parallax').parallax();
     $('.materialboxed').materialbox();
+    $('.modal').modal();
     $(document).scroll(function() { 
         if($(this).scrollTop() > $('#slider').offset().top) {
             $("nav").attr("style",'background-color:#000000 !important');

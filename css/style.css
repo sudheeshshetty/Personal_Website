@@ -3,7 +3,7 @@
 }
 
 img {
-    width: 100% !important;
+    width: 100%;
 }
 
 .carousel-item{
@@ -97,5 +97,9 @@ nav ul li a{
 }
 ul li a i:hover {
     opacity: .7;
+}
+.modal { 
+    width: 75% !important ; 
+    height: 75% !important ; 
 }
 
