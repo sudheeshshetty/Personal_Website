@@ -1,3 +1,4 @@
+
 .history{
     padding:20px;
 }
@@ -6,14 +7,28 @@ img {
     width: 100%;
 }
 
-.carousel-item{
-    height: 100%;
+.license{
+    width:auto !important;
 }
 
-.slider-img{
-    width: 100%;
-    min-height: 600px;
-    max-height: 600px;
+.home{
+    position: relative;
+    background:#fafafa;
+}
+.home-title{
+    font-size: 70px;
+    line-height: 1;    
+}
+
+.designation{
+    font-size: 25px;
+}
+
+.middle{
+    font-family: Hind,sans-serif;
+    margin-top: 40%;
+    font-weight: 700;
+    color: #515769;
 }
 
 nav{
@@ -32,6 +47,25 @@ nav ul li a{
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
+
+.project-img{
+    min-height: 255px;
+    max-height: 255px;
+}
+
+.about-img{
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+}
+
+.about-image-container{
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+}
+
+
 .card{
     padding:0px !important;
     margin:0px;
@@ -94,6 +128,24 @@ nav ul li a{
 }
 .fa-google-plus {
     background:#dd4b39 !important;
+}
+.fa-linkedin-square{
+    background: #0077B5 !important;
+}
+.fa-github{
+    background: black !important;
+}
+.fa-medium{
+    background: #02b875 !important;
+}
+.fa-wordpress{
+    background: #464646 !important;
+}
+.fa-stack-overflow{
+    background: #fe7a15 !important;
+}
+.fa-gitlab{
+    background:#fc6d26 !important;
 }
 ul li a i:hover {
     opacity: .7;

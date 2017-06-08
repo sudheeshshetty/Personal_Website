@@ -1,10 +1,9 @@
 $(document).ready(function(){
-    $('.carousel.carousel-slider').carousel({fullWidth: true,duration:2000});
     $('.parallax').parallax();
     $('.materialboxed').materialbox();
     $('.modal').modal();
     $(document).scroll(function() { 
-        if($(this).scrollTop() > $('#slider').offset().top) {
+        if($(this).scrollTop() > $('#home').offset().top) {
             $("nav").attr("style",'background-color:#000000 !important');
             $("nav ul li a").attr("style",'color:white !important');
             $(".brand-logo").attr("style",'color:white !important');
@@ -26,5 +25,16 @@ $(document).ready(function(){
             });
         }
     });
+    
+    
+        var mailString;
+        function updateMailString() {
+            mailString = '?subject=' + encodeURIComponent($('#subject').val())
+                + '&body=' + encodeURIComponent($('#body').val());
+            console.log(mailString);
+            $('#mail-link').attr('href',  'mailto:sudheeshshetty@gmail.com' + mailString);
+        }
+        $( "#subject" ).focusout(function() { updateMailString(); });
+        $( "#body" ).focusout(function() { updateMailString(); });
     
 });
