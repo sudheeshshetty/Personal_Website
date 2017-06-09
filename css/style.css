@@ -25,6 +25,15 @@ img {
     font-size: 25px;
 }
 
+.modal{
+    background-image: url('../img/about.JPG');
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-size: cover;
+    width: 75% !important ; 
+    height: 100% !important ;
+}
+
 .middle{
     font-family: Hind,sans-serif;
     margin-top: 40%;
@@ -59,9 +68,18 @@ nav ul li a{
     min-height: 100%;
     position: absolute;
 }
+
+
 .skill-img{
-    height: 200px;
-    width: 200px !important;
+    height: 300px;
+    width: 300px !important;
+    margin: 0 auto;
+}
+
+.carousel .carousel-item {
+    width:400px !important;
+    text-align: center;
+    
 }
 
 .about-image-container{
@@ -154,9 +172,5 @@ nav ul li a{
 }
 ul li a i:hover {
     opacity: .7;
-}
-.modal { 
-    width: 75% !important ; 
-    height: 75% !important ; 
 }
 

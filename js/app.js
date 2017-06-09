@@ -2,6 +2,9 @@ $(document).ready(function(){
     $(".button-collapse").sideNav();
     $('.parallax').parallax();
     $('.carousel').carousel();
+    setInterval(function() {
+    $('.carousel').carousel('next');
+  }, 2000);
     $('.materialboxed').materialbox();
     $('.modal').modal();
     $(document).scroll(function() { 
