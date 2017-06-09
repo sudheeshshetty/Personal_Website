@@ -22,6 +22,7 @@
 
     <body>
         <!--Header-->
+        <header>
         <div class="navbar-fixed">
             <nav>
                 <div class="nav-wrapper container">
@@ -31,29 +32,37 @@
                         <li><a href="#home">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#projects">Projects</a></li>
-                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#skills">Skills</a></li>
                         <li><a href="#gallery">Gallery</a></li>
-                        <li><a href="#contact-us">Contact</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
-                    <ul class="side-nav" id="mobile-demo">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#experience">Experience</a></li>
-                        <li><a href="#gallery">Gallery</a></li>
-                        <li><a href="#contact-us">Contact</a></li>
-                    </ul>
+                    
                 </div>
             </nav>
         </div>
+            <ul class="side-nav" id="mobile-demo">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+            </ul>
+        </header>
         
         
         <!-- Slider -->
         <div id="home" class="home" >
             <div class="container">
                 <div class="row">
-                    <div class="col s6">
-                        <div class="middle">
+                    <div class="col m6 push-m6">
+                        <div class="">
+                            <img class="image" src="img/thewebpeopleprofile.png" align="Avatar">
+                        </div>
+                    </div>
+                    
+                    <div class="col m6 pull-m6">
+                        <div class="middle center">
                             <h1 class="home-title">Sudheesh <br/> Shetty</h1>
                             <hr>
                             <p class="desgnation">Web &amp; Full Stack Developer</p>
@@ -72,29 +81,28 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col s6">
-                        <div class="">
-                            <img class="" src="img/thewebpeopleprofile.png" align="Avatar">
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
         
-        <!--History-->
-        <div class=" history container " id="history-container">
+        <!--About-->
+        <div class="about container " id="about">
             <div class="row">
-                <div class="col l6 m12">
+                <div class="col l6 m12 s12">
                     <div class="about-image-container">
                         <img class="materialboxed responsive-img z-depth-1 about-img" src="img/about.JPG" alt="About Image" />
                     </div>
                     
                 </div>
-                <div class="col l6 m12">
+                <div class="col l6 m12 s12">
                     <div class="fadeInRight">
                         <h3>About</h3>
                         <p>Hi, my name is <span class="imp">Sudheesh Shetty</span>.I am a Full-stack Developer(MEAN Stack), script writer (Perl, Shell, python) and an open source enthusiast. I have a great love towards technologies. I love to learn technologies and to teach them.</p>
                         <a class="modal-trigger" data-target="modal1">Read More...</a>
+                        <br/>
+                        <br/>
+                        <a class="btn" href="img/about-image.jpg" download>Download CV</a>
                     </div>
                 </div>
             </div>
@@ -108,14 +116,20 @@
                 <p>I am that guy who also likes to keep myself fit. I do gym and exercises to keep myself fit. Tripping and trecking are the things that no one would hate and neither do I. I have been to many places with my friends. If some one is speaking of technology, Open Source that would definetly take my attention.</p>
             </div>
             <div class="modal-footer">
-                <a href="#history-container" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
+                <a href="#about" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
             </div>
         </div>
         
         <!-- Diavastana-->
-        <div id="daivastana">
-            <h3 class="title">Projects</h3>
-            <div class="row daivastana-row">
+        <div id="projects">
+            <div class="row">
+                <h3 class="title">Projects</h3>
+                <div class="right">
+                    <a class="btn waves-effect waves-light" href="https://github.com/sudheeshshetty" target="_blank">VIEW ALL</a>
+                </div>
+                
+            </div>
+            <div class="row projects-row">
                 <div class="card col l3 m6 s12 hoverable">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator project-img" src="img/chat.jpg">
@@ -175,14 +189,29 @@
         </div>
         
         
-        <!--imp people-->
-        <div class="parallax-container">
+        <!--experience-->
+        <div id="skills" class="parallax-container">
+            <h3 class="title white-text">Skills</h3>
             <div class="parallax"><img src="img/testimonials-bg.jpg"></div>
+            <div class="carousel">
+                <a class="carousel-item" href="#one!"><img class="skill-img" src="img/html.png"></a>
+                <a class="carousel-item" href="#two!"><img class="skill-img" src="img/css.png"></a>
+                <a class="carousel-item" href="#three!"><img class="skill-img" src="img/bootstrap.png"></a>
+                <a class="carousel-item" href="#four!"><img class="skill-img" src="img/materialize.jpg"></a>
+                <a class="carousel-item" href="#five!"><img class="skill-img" src="img/angular.png"></a>
+                <a class="carousel-item" href="#five!"><img class="skill-img" src="img/react.png"></a>
+                <a class="carousel-item" href="#five!"><img class="skill-img" src="img/node.png"></a>
+                <a class="carousel-item" href="#five!"><img class="skill-img" src="img/socket.png"></a>
+                <a class="carousel-item" href="#five!"><img class="skill-img" src="img/Mongodb.png"></a>
+                <a class="carousel-item" href="#five!"><img class="skill-img" src="img/mysql.jpg"></a>
+                <a class="carousel-item" href="#five!"><img class="skill-img" src="img/python.png"></a>
+                <a class="carousel-item" href="#five!"><img class="skill-img" src="img/perl.jpg"></a>
+            </div>
         </div>
         
         
         <!--Latest Pictures-->
-        <div class="container pictures-container">
+        <div id="gallery" class="container pictures-container">
             <div class="row">
                 <h3 class="title">Latest Pictures</h3>
                 <div class="right">
@@ -209,7 +238,7 @@
         
         
         <!--Contact-->
-        <div class="container">
+        <div class="container" id="contact">
             <div class="row">
                 <div class="col s12">
                     <div class="title">
@@ -226,14 +255,14 @@
         <footer class="page-footer grey darken-4">
             <div>
                 <br/>
-                <div class="container center-align white-text">
-                    <label for="subject">Subject</label>
+                <div class="container  white-text">
+                    <label for="subject" >Subject</label>
                     <input id="subject" type="text" class="validate">
                     
-                    <label for="body">Body</label>
+                    <label for="body" >Body</label>
                     <textarea id="body" class="materialize-textarea" data-length="200"></textarea>
                     
-                    <a id="mail-link" class="waves-effect waves-light btn">Mail</a>
+                    <div class="center-align"><a id="mail-link" class="waves-effect waves-light btn">Mail</a></div>
                 </div>
                 <br/>
             </div>
@@ -271,7 +300,7 @@
                 var marker = new google.maps.Marker({
                     position: myLatLng,
                     map: map,
-                    title: 'Hello World!'
+                    title: 'I live here!'
                 });
             }
         </script>

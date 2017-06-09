@@ -1,5 +1,7 @@
 $(document).ready(function(){
+    $(".button-collapse").sideNav();
     $('.parallax').parallax();
+    $('.carousel').carousel();
     $('.materialboxed').materialbox();
     $('.modal').modal();
     $(document).scroll(function() { 

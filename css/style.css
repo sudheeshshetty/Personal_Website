@@ -1,5 +1,5 @@
 
-.history{
+.about{
     padding:20px;
 }
 
@@ -7,13 +7,14 @@ img {
     width: 100%;
 }
 
+
 .license{
     width:auto !important;
 }
 
 .home{
     position: relative;
-    background:#fafafa;
+    background:#e0e0e0;
 }
 .home-title{
     font-size: 70px;
@@ -43,7 +44,7 @@ nav ul li a{
     color: black !important;
 }
 
-.daivastana-row{
+.projects-row{
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
@@ -57,6 +58,10 @@ nav ul li a{
     min-width: 100%;
     min-height: 100%;
     position: absolute;
+}
+.skill-img{
+    height: 200px;
+    width: 200px !important;
 }
 
 .about-image-container{
